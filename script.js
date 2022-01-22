@@ -21,7 +21,7 @@
         }
         function onsuccess(position){
             const {latitude, longitude} = position.coords;
-            api = `https://api.openweathermap.org/data/2.5/weather?lat=77.2167&lon=28.6667&units=metric&appid=d1c22a935ccb8bb94ade30683cecd328`;
+            api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=d1c22a935ccb8bb94ade30683cecd328`;
             fetchdata();
         }
         locationbutton.addEventListener("click", () =>{
@@ -62,7 +62,7 @@
                 const {description, id} = info.weather[0];
                 const {temp, feels_like, humidity} = info.main;
                 if(id == 800){
-                    weathericon.src = "https://i.pinimg.com/564x/84/03/5f/84035fbe076a5fe3ad3526ae4f436ec9.jpg";
+                    weathericon.src = "https://cdn-icons.flaticon.com/png/512/5875/premium/5875648.png?token=exp=1642852586~hmac=8991167b73a31b2f9ff37f3898195b15";
                     //document.querySelector("body").style.background="orange"//clear
                     document.querySelector("body").style.backgroundImage="url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png?compress=1&resize=400x300')"//clear
 
