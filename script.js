@@ -67,7 +67,7 @@
                     document.querySelector("body").style.backgroundImage="url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png?compress=1&resize=400x300')"//clear
 
                 }else if(id >= 200 && id <= 232){
-                    weathericon.src = "https://freepngimg.com/thumb/storm/31147-4-storm-image-thumb.png";  
+                    weathericon.src = "https://www.pngall.com/wp-content/uploads/6/Storm.png";  
                     //document.querySelector("body").style.background="pink"//storm
                     document.querySelector("body").style.color="white"
                     document.querySelector("header").style.color="white"
@@ -77,7 +77,7 @@
 
                     document.querySelector("body").style.backgroundImage="url('https://www.stormshieldapp.com/static/images/section1.1-bg.jpg')"
                 }else if(id >= 600 && id <= 622){
-                    weathericon.src = "https://www.seekpng.com/png/detail/2-21061_png-file-snow-weather-icon-png.png";
+                    weathericon.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHDScgNs3-W5IzLlPMBSyt5YBc1AR4nhixpBwqOp5_WTyX1t9iIAi1SATjgb7HklqaWE&usqp=CAU";
                     //document.querySelector("body").style.background="blueviolet"//snow
                 
                     
@@ -87,11 +87,11 @@
                 // document.querySelector("body").style.background="white"//mist
                 document.querySelector("body").style.backgroundImage="url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUJqIkWc8PYNJa0b-iFYWINJ1zOPIf_xVljPsCR6ArFluZGNaX6Z0nyGO0DcwXl6O3HIU&usqp=CAU')"
                 }else if(id >= 801 && id <= 804){
-                    weathericon.src = "https://img.favpng.com/11/17/11/cloud-weather-rain-illustration-png-favpng-DJmSjCNPBEmDZqgvMHMWMAnek.jpg";
+                    weathericon.src = "https://i.dlpng.com/static/png/1212653-81-weather-png-267_267_preview.png";
                     //document.querySelector("body").style.background="powderblue"//clearcloud
                     document.querySelector("body").style.backgroundImage="url('https://media.istockphoto.com/photos/beautiful-sky-with-white-clouds-picture-id182412483?k=20&m=182412483&s=612x612&w=0&h=axQ1-d_KRgxHIxDYQPG-yQuxjeIjXiQLDE8x5ltD-_0=')"
                 }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
-                    weathericon.src = "https://www.pngkey.com/png/detail/385-3855345_nuages-pluie-rainy-weather-icons.png";
+                    weathericon.src = "https://www.freeiconspng.com/thumbs/cloud-rain-icons/rain-cloud-icon-23.png";
                     //document.querySelector("body").style.background="blue"//rain
                     document.querySelector("body").style.color="white"
                 document.querySelector("header").style.color="white"
